@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Konnect';
+    src: url('../fonts/Konnect/KonnectRegular.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Konnect';
+    src: url('../fonts/Konnect/KonnectSemiBold.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Konnect';
+    src: url('../fonts/Konnect/KonnectLight.otf');
+    font-weight: lighter;
+}
+
+
+
+@font-face{
+    font-family: 'Retro';
+    src: url('../fonts/RetroSignature/RetroSignature.otf');
+}
