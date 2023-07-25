@@ -19,7 +19,7 @@
     font-family: var(--textos);
     letter-spacing: 1px;
 }
-html{
+html, body{
     width: 100%;
     overflow-x: hidden;
 }
@@ -528,6 +528,13 @@ a{
     justify-content: center;
     margin-bottom: 2rem;
 }
+@media(min-width:1250px){
+    .experiencia__header{
+        justify-content: end;
+        margin-right: 15%;
+        margin-bottom: 5rem;
+    }
+}
 .experiencia__header .titulo{
     font-size: 8rem;
 }
@@ -749,6 +756,90 @@ a{
     color: var(--colorSecundario);
     border-color: var(--colorSecundario);
    }
+}
+/* !SECTION */
+
+/* SECTION - VALLE REAL */
+.valle{
+    display: flex;
+    height: 140vh;
+}
+@media(max-width:1250px){
+    .valle{
+        display: none;
+    }
+}
+@media(max-width:1350px){
+    .valle{
+        height: 120vh;
+    }
+    .valle .subtitulo{
+        font-size: 1.2rem;
+    }
+    .valle .titulo{
+        font-size: 5rem !important;
+    }
+}
+.valle__contenedor--1{
+    width: 70%;
+}
+.valle__contenedor--2{
+    width: 30%;
+}
+.valle__contenedor--2 .titulo{
+    background-color: var(--colorPrimario);
+    margin: 0;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7rem;
+}
+.valle__article{
+    height: 22%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    text-align: justify;
+}
+.valle__bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.valle__bg--1{
+    height: 78%;
+    width: 100%;
+    background-image: url("../images/valle/Estilo/foto-1.jpg");
+}
+.valle__bg--2{
+    height: 75%;
+    width: 100%;
+    background-image: url("../images/valle/Estilo/foto-2.jpg");
+}
+
+
+@media(min-width:1250px){
+    .valle--responsivo{
+        display: none;
+    }
+}
+.valle--responsivo .titulo{
+    background-color: var(--colorPrimario);
+    margin: 0;
+}
+.valle--responsivo img{
+    object-fit: cover;
+    height: 400px;
+}
+.valle--responsivo img:nth-child(1){
+    width: 70%;
+}
+.valle--responsivo img:nth-child(2){
+    width: 30%;
 }
 /* !SECTION */
 

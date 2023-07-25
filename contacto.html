@@ -20,8 +20,9 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- LOCALES -->
+    <link rel="stylesheet" href="assets/styles/aos.css">
     <link rel="stylesheet" href="assets/styles/app.css">
-    <title>Main Street | Página principal</title>
+    <title>Main Street | Recibe información personalizada</title>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
 
         <nav class="navbar navbar-expand-lg w-100 position-absolute top-0 z-3" data-bs-theme="dark">
             <div class="container">
-                <a data-aos="fade-left" class="navbar-brand" href="index.html"><img src="assets/images/main/Banner/M.png"
+                <a data-aos="zoom-in" data-aos="fade-left" class="navbar-brand" href="index.html"><img src="assets/images/main/Banner/M.png"
                         alt="Logo de la empresa"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -39,10 +40,10 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav gap-4">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                        <a class="nav-link" href="proyecto.html">Proyecto</a>
-                        <a class="nav-link active" href="contacto.html">Contacto</a>
-                        <section class="d-flex gap-3 gap-md-2">
+                        <a data-aos="fade-up" class="nav-link" href="index.html">Inicio</a>
+                        <a data-aos="fade-down" class="nav-link" href="proyecto.html">Proyecto</a>
+                        <a data-aos="fade-up" class="nav-link active" href="contacto.html">Contacto</a>
+                        <section data-aos="fade-down" class="d-flex gap-3 gap-md-2">
                             <a href="#" class="nav-link"><i class="fab fa-whatsapp"></i></a>
                             <a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
                         </section>
@@ -60,33 +61,33 @@
 
         <form class="contacto__form" id="contacto">
             <header class="contacto__form__header">
-                <h1 class="titulo text-white text-center">Contactanos</h1>
-                <p class="subtitulo text-center">Recibe información personalizada</p>
+                <h1 class="titulo text-white text-center animate__animated animate__heartBeat">Contactanos</h1>
+                <p class="subtitulo text-center animate__animated animate__bounceInLeft">Recibe información personalizada</p>
 
             </header>            
             <fieldset>
                 <div class="mb-3">
-                    <label for="inpnombre" class="contacto__label">Nombre</label>
-                    <input class="contacto__input" name="nombre" id="inpnombre" type="text">
+                    <label for="inpnombre" class="contacto__label animate__animated animate__fadeInBottomRight">Nombre</label>
+                    <input class="contacto__input animate__animated animate__bounceInLeft" name="nombre" id="inpnombre" type="text">
                 </div>
                 <div class="mb-3">
-                    <label for="inpcorreo" class="contacto__label">Correo</label>
-                    <input class="contacto__input" name="correo" id="inpcorreo" type="email">
+                    <label for="inpcorreo" class="contacto__label animate__animated animate__fadeInBottomLeft">Correo</label>
+                    <input class="contacto__input animate__animated animate__bounceInRight" name="correo" id="inpcorreo" type="email">
                 </div>
                 <div class="mb-3">
-                    <label for="inpwhatsapp" class="contacto__label">WhatsApp</label>
-                    <input class="contacto__input" name="whatsapp" id="inpwhatsapp" type="tel">
+                    <label for="inpwhatsapp" class="contacto__label animate__animated animate__fadeInBottomRight">WhatsApp</label>
+                    <input class="contacto__input animate__animated animate__bounceInLeft" name="whatsapp" id="inpwhatsapp" type="tel">
                 </div>
                 <div class="mb-5">
-                    <label for="textareamensaje">Mensaje</label>
-                    <textarea name="mensaje" id="textareamensaje" class="contacto__textarea"></textarea>
+                    <label class="contacto__label animate__animated animate__fadeInBottomRight" for="textareamensaje">Mensaje</label>
+                    <textarea name="mensaje" id="textareamensaje" class="contacto__textarea animate__animated animate__bounceInRight"></textarea>
                 </div>
                 <div class="mb-5">
-                    <button class="btn boton boton-white" type="submit" id="btnenviar">Enviar</button>
+                    <button class="btn boton boton-white animate__animated animate__bounceInDown" type="submit" id="btnenviar">Enviar</button>
                 </div>
             </form>
             </fieldset>
-    
+
         <picture>
             <img class="contacto__edificio" src="assets/images/contacto/departamento.png" alt="Imagen del edificio Main Street">
         </picture>
@@ -97,23 +98,23 @@
     <section class="contactodatos container">
         <section class="row">
 
-            <a href="" class="col-md-4 contactodatos__a">
+            <a data-aos="zoom-in-down" href="https://wa.link/f467mz" target="_blank" class="col-md-4 contactodatos__a">
                 <article class="text-center contactodatos__article">
-                    <i class="fab fa-whatsapp contactodatos__icon"></i>
+                    <i data-aos="zoom-in" class="fab fa-whatsapp contactodatos__icon"></i>
                     <h3 class="subtitulo">whatsapp</h3>
                     <p>(33) 3900 3891</p>
                 </article>
             </a>
-            <a href="" class="col-md-4 contactodatos__a">
+            <a data-aos="zoom-in-up" href="https://www.google.com.mx/maps/place/C.+Lope+de+Vega+274,+Arcos+Vallarta,+44130+Guadalajara,+Jal./@20.6689089,-103.3828488,17z/data=!3m1!4b1!4m6!3m5!1s0x8428ae0b603d30ad:0xed39081a09bf9c73!8m2!3d20.6689039!4d-103.3802739!16s%2Fg%2F11c4kp35hz?entry=ttu" target="_blank" class="col-md-4 contactodatos__a">
                 <article class="text-center contactodatos__article">
-                    <i class="fas fa-location-dot contactodatos__icon"></i>
+                    <i data-aos="zoom-in" class="fas fa-location-dot contactodatos__icon"></i>
                     <h3 class="subtitulo">ubicación</h3>
                     <p>Calle Lope de Vega No. 274, Col. Los Arcos Vallarta, Guadalajara, Jal.</p>
                 </article>
             </a>
-            <a href="" class="col-md-4 contactodatos__a">
+            <a data-aos="zoom-in-down" href="mailto:info@mainstreet.com" target="_blank" class="col-md-4 contactodatos__a">
                 <article class="text-center contactodatos__article">
-                    <i class="fas fa-envelope contactodatos__icon"></i>
+                    <i data-aos="zoom-in" class="fas fa-envelope contactodatos__icon"></i>
                     <h3 class="subtitulo">correo</h3>
                     <p>info@mainstreet.com</p>
                 </article>
@@ -122,14 +123,10 @@
         </section>
     </section>
 
-    <div class="separador"><div></div></div>
+    <div class="separador"><div data-aos="fade-left"></div></div>
 
-    <section class="mapa container">
-        <a href="https://www.google.com.mx/maps/place/C.+Lope+de+Vega+274,+Arcos+Vallarta,+44130+Guadalajara,+Jal./@20.6689089,-103.3828488,17z/data=!3m1!4b1!4m6!3m5!1s0x8428ae0b603d30ad:0xed39081a09bf9c73!8m2!3d20.6689039!4d-103.3802739!16s%2Fg%2F11c4kp35hz?entry=ttu" target="_blank">
-            <picture>
-                <img class="w-100" src="assets/images/contacto/mapa.png" loading="lazy" alt="Mapa de la ubicación de Main Street">
-            </picture>
-        </a>
+    <section class="mapa container py-5" data-aos="zoom-out">
+        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0165935407385!2d-103.38027389999999!3d20.6689039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae0b603d30ad%3A0xed39081a09bf9c73!2sC.%20Lope%20de%20Vega%20274%2C%20Arcos%20Vallarta%2C%2044130%20Guadalajara%2C%20Jal.!5e0!3m2!1ses!2smx!4v1690035508207!5m2!1ses!2smx" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <!-- NOTE AQUI EMPIEZA EL FOOTER -->
@@ -141,7 +138,7 @@
 
             <section class="col-lg-4 footer__contenedorlogo">
                 <picture class="w-100">
-                    <img class="footer__logo" src="assets/images/main/Pie de pagina/logo.png"
+                    <img data-aos="zoom-in" class="footer__logo" src="assets/images/main/Pie de pagina/logo.png"
                         alt="Logotipo de Main Street">
                 </picture>
             </section>
@@ -150,18 +147,18 @@
                 <section class="footer__enlaces row">
 
                     <ul class="footer__lista col-md-7">
-                        <li class="footer__lista__item">
+                        <li data-aos="fade-up" class="footer__lista__item">
                             <a href="https://www.google.com.mx/maps/place/C.+Lope+de+Vega+274,+Arcos+Vallarta,+44130+Guadalajara,+Jal./@20.6689089,-103.3828488,17z/data=!3m1!4b1!4m6!3m5!1s0x8428ae0b603d30ad:0xed39081a09bf9c73!8m2!3d20.6689039!4d-103.3802739!16s%2Fg%2F11c4kp35hz?entry=ttu" target="_blank">
                                 <i class="fas fa-location-dot"></i> Calle Lope Vega No.274. Col. Los Arcos Vallarta,
                                 Guadalajara, Jal.
                             </a>
                         </li>
-                        <li class="footer__lista__item">
+                        <li data-aos="fade-up" class="footer__lista__item">
                             <a href="https://wa.link/f467mz" target="_blank">
                                 <i class="fab fa-whatsapp"></i> (33) 3900 3891
                             </a>
                         </li>
-                        <li class="footer__lista__item">
+                        <li data-aos="fade-up" class="footer__lista__item">
                             <a href="mailto:info@mainstreet.com" target="_blank">
                                 <i class="fas fa-envelope"></i> info@mainstreet.com
                             </a>
@@ -169,16 +166,16 @@
                     </ul>
 
                     <ul class="footer__lista col-md-5">
-                        <li class="footer__lista__item">
+                        <li data-aos="fade-up" class="footer__lista__item">
                             <a href="index.html">INICIO</a>
                         </li>
-                        <li class="footer__lista__item">
+                        <li data-aos="fade-up" class="footer__lista__item">
                             <a href="proyecto.html">PROYECTO</a>
                         </li>
-                        <li class="footer__lista__item">
+                        <li data-aos="fade-up" class="footer__lista__item">
                             <a href="contacto.html">CONTACTO</a>
                         </li>
-                        <li class="footer__lista__item footer__lista__item--redes">
+                        <li data-aos="fade-up" class="footer__lista__item footer__lista__item--redes">
                             <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
                             <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -187,7 +184,6 @@
 
                 </section>
             </section>
-
         </section>
 
         <section class="footer__copy text-white text-center p-4">
@@ -196,8 +192,13 @@
 
     </footer>
     <script src="assets/scripts/send.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="assets/scripts/slides.js"></script>
+    <script src="assets/scripts/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 400,
+            duration: 800
+        });
+    </script>
 
 </body>
 

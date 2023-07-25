@@ -19,7 +19,8 @@
 
     <!-- LOCALES -->
     <link rel="stylesheet" href="assets/styles/app.css">
-    <title>Main Street | Página principal</title>
+    <link rel="stylesheet" href="assets/styles/aos.css">
+    <title>Main Street | Más allá de un espacio</title>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
 
         <nav class="navbar navbar-expand-lg w-100 position-absolute top-0 z-3" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/main/Banner/M.png"
+                <a data-aos="zoom-out" class="navbar-brand" href="index.html"><img src="assets/images/main/Banner/M.png"
                         alt="Logo de la empresa"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -37,10 +38,10 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav gap-4">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                        <a class="nav-link active" href="proyecto.html">Proyecto</a>
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                        <section class="d-flex gap-3 gap-md-2">
+                        <a data-aos="fade-down" class="nav-link" href="index.html">Inicio</a>
+                        <a data-aos="fade-up" class="nav-link active" href="proyecto.html">Proyecto</a>
+                        <a data-aos="fade-down" class="nav-link" href="contacto.html">Contacto</a>
+                        <section data-aos="fade-up" class="d-flex gap-3 gap-md-2">
                             <a href="#" class="nav-link"><i class="fab fa-whatsapp"></i></a>
                             <a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
                         </section>
@@ -49,7 +50,7 @@
             </div>
         </nav>
 
-        <picture class="banner">
+        <picture data-aos="zoom-in-up" class="banner">
             <img src="assets/images/proyecto/Banner/fondo.jpg" class="w-100"
                 alt="Imagen de banner, fachada de departamento Main Street">
         </picture>
@@ -57,11 +58,11 @@
         <section class="header__info">
 
             <section class="header__info--proyecto w-100 text-center">
-                <h1 class="titulo text-white">Mas allá</h1>
-                <p class="subtitulo text-white">de un espacio</p>
+                <h1 data-aos="fade-up" class="titulo text-white">Mas allá</h1>
+                <p data-aos="fade-left" class="subtitulo text-white">de un espacio</p>
             </section>
 
-            <section class="header__explora">
+            <section data-aos="fade-down" class="header__explora">
                 <img src="assets/images/main/Banner/flecha.png" alt="Flecha hacia abajo">
             </section>
 
@@ -71,14 +72,14 @@
 
 
     <section class="lavida row">
-        <section class="lavida__contenedor col-lg-4">
+        <section data-aos="fade-right" class="lavida__contenedor col-lg-4">
             <picture class="w-100">
                 <img class="lavida__logo d-block w-50 m-auto" loading="lazy" src="assets/images/proyecto/La vida en Main/logotipo.png" alt="Logotipo de Main Street">
             </picture>
             <div></div>
         </section>
         <section class="lavida__contenedor col-lg-8">
-            <article>
+            <article data-aos="fade-left">
                 <h3 class="subtitulo text-white">La vida en main street es para ti</h3>
                 <p class="text-white">Disfruta de un desarrollo que te ofrece el mejor estilo de vida, así como espacios inteligentes, ubicado en una de las colonias más icónicas de la Zona Metropolitana de Guadalajara y de mayor tradición , como lo la Americana</p>
             </article>
@@ -93,7 +94,7 @@
         </picture>
 
         <section class="experiencia__contenedor position-absolute">
-            <header class="experiencia__header">
+            <header data-aos="fade-left" class="experiencia__header">
                 <p class="subtitulo text-white">Vive la</p>
                 <h3 class="titulo text-white">Experiencía</h3>
             </header>
@@ -102,22 +103,22 @@
             <section class="experiencia__circulos">
     
                 <article class="">
-                    <div class="experiencia__circulo">
-                        <h4 class="subtitulo">Arquitectura</h4>
+                    <div data-aos="fade-left" class="experiencia__circulo">
+                        <h4 data class="subtitulo">Arquitectura</h4>
                         <p>Una edificación de estilo mexicano contemporáneo que proporciona un sentimiento de tradición y confort.</p>
                     </div>
                 </article>
                 
     
                 <article class="">
-                    <div class="experiencia__circulo">
+                    <div data-aos="fade-up" class="experiencia__circulo">
                         <h4 class="subtitulo">Ubicación</h4>
                         <p>Ubicado en la zona más iconica de Guadalajara, Jalisco, "La Americana" cuenta con todo lo que necesitas.</p>
                     </div>
                 </article>
     
                 <article class="">
-                    <div class="experiencia__circulo">
+                    <div data-aos="fade-right" class="experiencia__circulo">
                         <h4 class="subtitulo">Confort</h4>
                         <p>Un departamento que cuenta con todo lo que deseas para vivir una experiencía única y cómoda.</p>
                     </div>
@@ -132,7 +133,7 @@
     <!-- LINK - DEPARTAMENTOS -->
     <section class="departamentos">
 
-        <section class="swiper container departamentos__swiper">
+        <section data-aos="zoom-in" class="swiper container departamentos__swiper">
             <section class="swiper-wrapper">
 
                 <!-- SLIDE 1 -->
@@ -142,7 +143,7 @@
                             <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-1.png" loading="lazy" alt="Render del apartamento visto desde arriba">
                         </picture>
                         <article class="departamentos__article col-md-6">
-                            <h1 class="titulo">Departamento 1.1</h1>
+                            <h3 class="titulo">Departamento 1.1</h3>
                             <div class="departamentos__medidas">
                                 <p class="texto-bold fs-3">61 m<sub>2</sub> Interior</p>
                                 <p class="texto-bold fs-3">95 m<sub>2</sub> Terrazas</p>
@@ -164,23 +165,23 @@
                 <section class="swiper-slide">
                     <section class="row">
                         <picture class="col-md-6">
-                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-1.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-2.1.png" loading="lazy" alt="Render del apartamento visto desde arriba">
                         </picture>
                         <article class="departamentos__article col-md-6">
-                            <h1 class="titulo">Departamento 1.1</h1>
+                            <h3 class="titulo">Departamento 2.1</h3>
                             <div class="departamentos__medidas">
-                                <p class="texto-bold fs-3">61 m<sub>2</sub> Interior</p>
-                                <p class="texto-bold fs-3">95 m<sub>2</sub> Terrazas</p>
+                                <p class="texto-bold fs-3">46 m<sub>2</sub> Interior</p>
+                                <p class="texto-bold fs-3">7 m<sub>2</sub> Terrazas</p>
                             </div>
                             <ul class="departamentos__distribucion">
                                 <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Cocina integral con barra </li>
+                                <li>- Desayunadora</li>
                                 <li>- Sala</li>
-                                <li>- Comedor</li>
-                                <li>- Cocina integral</li>
-                                <li>- Patio de lavado</li>
-                                <li>- Alcoba</li>
+                                <li>- Baño Completo</li>
+                                <li>- Área de Lavado</li>
                                 <li>- Recamara con closet</li>
-                                <li>- Amplias terrazas</li>
+                                <li>- Balcón</li>
                             </ul>
                         </article>
                     </section>
@@ -190,23 +191,318 @@
                 <section class="swiper-slide">
                     <section class="row">
                         <picture class="col-md-6">
-                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-1.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-2.2.png" loading="lazy" alt="Render del apartamento visto desde arriba">
                         </picture>
                         <article class="departamentos__article col-md-6">
-                            <h1 class="titulo">Departamento 1.1</h1>
+                            <h3 class="titulo">Departamento 2.2</h3>
                             <div class="departamentos__medidas">
-                                <p class="texto-bold fs-3">61 m<sub>2</sub> Interior</p>
-                                <p class="texto-bold fs-3">95 m<sub>2</sub> Terrazas</p>
+                                <p class="texto-bold fs-3">50 m<sub>2</sub> Interior</p>
                             </div>
                             <ul class="departamentos__distribucion">
                                 <h4 class="texto-bold">Distribución:</h4>
                                 <li>- Sala</li>
                                 <li>- Comedor</li>
                                 <li>- Cocina integral</li>
-                                <li>- Patio de lavado</li>
-                                <li>- Alcoba</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
                                 <li>- Recamara con closet</li>
-                                <li>- Amplias terrazas</li>
+                                <li>- Balcón</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 4 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-2.3.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 2.3</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">44 m<sub>2</sub> Interior</p>
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Comedor</li>
+                                <li>- Cocina integral</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 5 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-2.4.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 2.4</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">50 m<sub>2</sub> Interior</p>
+                                <p class="texto-bold fs-3">41 m<sub>2</sub> Terrazas</p>
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Comedor</li>
+                                <li>- Cocina integral</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                                <li>- Amplia Terraza</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 6 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-2.5.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 2.5</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">44 m<sub>2</sub> Interior</p>
+                                <p class="texto-bold fs-3">34 m<sub>2</sub> Terrazas</p>
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Comedor</li>
+                                <li>- Cocina integral</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                                <li>- Amplia Terraza</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 7 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-2.6.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 2.6</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">49 m<sub>2</sub> Interior</p>
+                                <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p>
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Comedor</li>
+                                <li>- Cocina integral</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                                <li>- Amplia Terraza</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 8 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-2.7.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 2.7</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">62 m<sub>2</sub> Interior</p>
+                                <!-- <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p> -->
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Comedor</li>
+                                <li>- Cocina integral</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Alcoba con closet</li>
+                                <li>- Recamara con closet</li>
+                                <li>- Balcòn</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 9 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-3.1.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 3.1</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">46 m<sub>2</sub> Interior</p>
+                                <!-- <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p> -->
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Desayunadora</li>
+                                <li>- Cocina integral con barra</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 10 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-3.2.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 3.2</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">50 m<sub>2</sub> Interior</p>
+                                <!-- <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p> -->
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Cocina integral</li>
+                                <li>- Comedor</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                                <li>- Balcòn</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 11 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-3.3.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 3.3</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">43 m<sub>2</sub> Interior</p>
+                                <!-- <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p> -->
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Cocina integral</li>
+                                <li>- Comedor</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 12 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-3.4.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 3.4</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">52 m<sub>2</sub> Interior</p>
+                                <!-- <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p> -->
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Cocina integral</li>
+                                <li>- Comedor</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                                <li>- Balcòn</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 12 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-3.5.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 3.5</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">45 m<sub>2</sub> Interior</p>
+                                <!-- <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p> -->
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Cocina integral</li>
+                                <li>- Comedor</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                                <li>- Balcòn</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 13 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-3.6.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 3.6</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">49 m<sub>2</sub> Interior</p>
+                                <!-- <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p> -->
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Cocina integral</li>
+                                <li>- Comedor</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!-- SLIDE 14 -->
+                <section class="swiper-slide">
+                    <section class="row">
+                        <picture class="col-md-6">
+                            <img class="w-100" src="assets/images/proyecto/Departamentos/departamento-3.7.png" loading="lazy" alt="Render del apartamento visto desde arriba">
+                        </picture>
+                        <article class="departamentos__article col-md-6">
+                            <h3 class="titulo">Departamento 3.7</h3>
+                            <div class="departamentos__medidas">
+                                <p class="texto-bold fs-3">64 m<sub>2</sub> Interior</p>
+                                <!-- <p class="texto-bold fs-3">43 m<sub>2</sub> Terrazas</p> -->
+                            </div>
+                            <ul class="departamentos__distribucion">
+                                <h4 class="texto-bold">Distribución:</h4>
+                                <li>- Sala</li>
+                                <li>- Cocina integral</li>
+                                <li>- Comedor</li>
+                                <li>- Baño completo</li>
+                                <li>- Área de lavado</li>
+                                <li>- Recamara con closet</li>
+                                <li>- Balcòn</li>
                             </ul>
                         </article>
                     </section>
@@ -216,10 +512,10 @@
 
             <section class="departamentos__controls">
 
-                <div class="departamentos__controls__slide departamentos__controls__slide--prev">
+                <div data-aos="fade-left" class="departamentos__controls__slide departamentos__controls__slide--prev">
                     <img src="assets/icons/izquierda.png" width="50" alt="Icono de flecha izquierda">
                 </div>
-                <div class="departamentos__controls__slide departamentos__controls__slide--next">
+                <div data-aos="fade-right" class="departamentos__controls__slide departamentos__controls__slide--next">
                     <img src="assets/icons/derecha.png" width="50" alt="Icono de flecha derecha">
                 </div>
 
@@ -229,29 +525,29 @@
 
     </section>
 
-    <div class="separador"><div></div></div>
+    <div class="separador"><div data-aos="fade-right"></div></div>
 
     <!-- LINK - INVERSION INTELIGENTE -->
 
     <section class="inversioninteligente position-relative">
-        <picture>
+        <picture data-aos="zoom-out">
             <img class="w-100 inversioninteligente__fondo" src="assets/images/proyecto/Inversion inteligente/fondo.jpg" alt="Imagen de chica sentada en un sofa viendo hacía el frente">
         </picture>
         <article class="inversioninteligente__article text-center">
-            <h2 class="titulo mb-0">Inversión inteligente</h2>
-            <p class="subtitulo">Gana de tus rentas gracias a la ubicación</p>
-            <a href="" class="btn boton">Quiero saber más</a>
+            <h2 class="titulo mb-0" data-aos="fade-up">Inversión inteligente</h2>
+            <p class="subtitulo" data-aos="fade-up">Gana de tus rentas gracias a la ubicación</p>
+            <a href="" class="btn boton" data-aos="fade-up">Quiero saber más</a>
         </article>
     </section>
 
     <section class="masnosotros">
-        <header class="masnosotros__header">
+        <header class="masnosotros__header" data-aos="fade-right">
             <div class="masnosotros__recuadro"></div>
             <h2 class="subtitulo text-center">conoce más de nosotros</h2>
         </header>
 
         <section class="swiper swiper__masnosotros position-relative">
-            <section class="swiper-wrapper">
+            <section class="swiper-wrapper" data-aos="zoom-in">
                 <picture class="swiper-slide">
                     <img class="w-100" src="assets/images/proyecto/Galeria/foto-1.jpg" alt="Imagen del concepto de una sala en Main Street">
                 </picture>
@@ -263,10 +559,10 @@
                 </picture>
             </section>
             <section class="masnosotros__controles position-absolute z-1">
-                <div class="masnosotros__controls masnosotros__controls--prev">
+                <div class="masnosotros__controls masnosotros__controls--prev" data-aos="zoom-in-right">
                     <img src="assets/images/main/Galería/icono-i.png" alt="Icono flecha izquierda">
                 </div>
-                <div class="masnosotros__controls masnosotros__controls--next">
+                <div class="masnosotros__controls masnosotros__controls--next" data-aos="zoom-in-left">
                     <img src="assets/images/main/Galería/icono-d.png" alt="Icono flecha derecha">
                 </div>
             </section>
@@ -283,7 +579,7 @@
     
                 <section class="col-lg-4 footer__contenedorlogo">
                     <picture class="w-100">
-                        <img class="footer__logo" src="assets/images/main/Pie de pagina/logo.png"
+                        <img data-aos="zoom-in" class="footer__logo" src="assets/images/main/Pie de pagina/logo.png"
                             alt="Logotipo de Main Street">
                     </picture>
                 </section>
@@ -292,18 +588,18 @@
                     <section class="footer__enlaces row">
     
                         <ul class="footer__lista col-md-7">
-                            <li class="footer__lista__item">
+                            <li data-aos="fade-up" class="footer__lista__item">
                                 <a href="https://www.google.com.mx/maps/place/C.+Lope+de+Vega+274,+Arcos+Vallarta,+44130+Guadalajara,+Jal./@20.6689089,-103.3828488,17z/data=!3m1!4b1!4m6!3m5!1s0x8428ae0b603d30ad:0xed39081a09bf9c73!8m2!3d20.6689039!4d-103.3802739!16s%2Fg%2F11c4kp35hz?entry=ttu" target="_blank">
                                     <i class="fas fa-location-dot"></i> Calle Lope Vega No.274. Col. Los Arcos Vallarta,
                                     Guadalajara, Jal.
                                 </a>
                             </li>
-                            <li class="footer__lista__item">
+                            <li data-aos="fade-up" class="footer__lista__item">
                                 <a href="https://wa.link/f467mz" target="_blank">
                                     <i class="fab fa-whatsapp"></i> (33) 3900 3891
                                 </a>
                             </li>
-                            <li class="footer__lista__item">
+                            <li data-aos="fade-up" class="footer__lista__item">
                                 <a href="mailto:info@mainstreet.com" target="_blank">
                                     <i class="fas fa-envelope"></i> info@mainstreet.com
                                 </a>
@@ -311,16 +607,16 @@
                         </ul>
     
                         <ul class="footer__lista col-md-5">
-                            <li class="footer__lista__item">
+                            <li data-aos="fade-up" class="footer__lista__item">
                                 <a href="index.html">INICIO</a>
                             </li>
-                            <li class="footer__lista__item">
+                            <li data-aos="fade-up" class="footer__lista__item">
                                 <a href="proyecto.html">PROYECTO</a>
                             </li>
-                            <li class="footer__lista__item">
+                            <li data-aos="fade-up" class="footer__lista__item">
                                 <a href="contacto.html">CONTACTO</a>
                             </li>
-                            <li class="footer__lista__item footer__lista__item--redes">
+                            <li data-aos="fade-up" class="footer__lista__item footer__lista__item--redes">
                                 <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                 <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
                                 <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -332,7 +628,7 @@
     
             </section>
     
-            <section class="footer__copy text-white text-center p-4">
+            <section data-aos="fade-right" class="footer__copy text-white text-center p-4">
                 Copyright &COPY; 2023 Main Street La Americana S.A DE C.V.
             </section>
     
@@ -340,6 +636,13 @@
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="assets/scripts/slides.js"></script>
+    <script src="assets/scripts/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 400,
+            duration: 800
+        });
+    </script>
 
 </body>
 
