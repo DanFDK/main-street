@@ -797,6 +797,7 @@ a{
     font-size: 7rem;
 }
 .valle__article{
+    background-color: var(--colorTerciario);
     height: 22%;
     width: 100%;
     display: flex;
@@ -841,6 +842,149 @@ a{
 .valle--responsivo img:nth-child(2){
     width: 30%;
 }
+
+/* LINK SUMERGETE */
+
+.sumergete{
+    display: flex;
+    align-items: center;
+    background-color: var(--colorTerciario);
+}
+.sumergete__info{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:768px){
+   .sumergete__info{
+        padding: 2rem;
+   }
+}
+.sumergete__info p{
+    margin: 1.4rem 0;
+    text-align: justify;
+}
+@media (max-width:768px){
+   .sumergete__info p{
+        text-align: left;
+   }
+}
+.sumergete__info .boton{
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+@media (max-width:768px){
+   .sumergete{
+    display: inline;
+   }
+   .sumergete__image{
+        width: 100%;
+   }
+}
+
+
+/* LINK UBICACION */
+.valleubicacion__separador{
+    background-color: var(--colorSecundario);
+    height: 130px;
+    width: 100%;
+}
+.valleubicacion__separador::before{
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: var(--colorPrimario);
+    width: 35%;
+}
+
+.valleubicacion__contenedor{
+    width: 90%;
+    margin: auto;
+    align-items: end;
+}
+
+@media (max-width:768px){
+    .valleubicacion__contenedor{
+        width: 95%;
+        flex-direction: column;
+    }
+}
+@media (max-width:520px){
+   .valleubicacion__contenedor{
+        position: inherit !important;
+        transform: none !important;
+        left: 0 !important;
+        width: 100%;
+   }
+}
+.valleubicacion__contenedor a{
+    width: 50%;
+    display: block;
+}
+@media (max-width:768px){
+   .valleubicacion__contenedor a{
+    width: 25%;
+   }
+}
+@media (max-width:520px){
+    .valleubicacion__contenedor a{
+        width: 50%;
+        position: absolute;
+        top: -65%;
+    }
+}
+.valleubicacion__article{
+    width: 50%;
+    padding: 1rem;
+}
+@media (max-width:768px){
+    .valleubicacion__article{
+        width: 100%;
+    }
+}
+@media (max-width:520px){
+    .valleubicacion__article{
+        background-color: var(--colorSecundario);
+    }
+   
+}
+.valleubicacion__minimapa{
+    width: 100%;
+}
+
+/* LINK Amenidades */
+.amenidades--valle{
+    background-color: var(--colorPrimario);
+    padding-top: 5rem;
+}
+.amenidades--valle .amenidades__lista{
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
+.amenidades__separador{
+    height: 120px;
+    width: 30%;
+    background-color: var(--colorSecundario);
+}
+@media (max-width:768px){
+    .amenidades__separador{
+        height: 70px;
+    }
+}
+
+/* LINK RETORNO DE INVERSION */
+.plusvalia--valle .fondo{
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* LINK Galeria valle */
+.galeria--valle{
+    margin: 5rem 0;
+}
+
 /* !SECTION */
 
 /* SECTION - CONTACTO */
